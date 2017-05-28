@@ -41,8 +41,8 @@
    ========================================================================== */  
 
 .welcome-logo {
-	padding-left: 20%;
-    padding-right: 20%;
+	padding-left: 25%;
+    padding-right: 25%;
     padding-bottom: 5%;
     
 }
@@ -404,7 +404,7 @@ div.pp_default .pp_description {
 }
 
 .pricing-table .price span {
-	font-size: 80px;
+	font-size: 30px;
 	line-height: 60px;
 	font-weight: 900;
 }
