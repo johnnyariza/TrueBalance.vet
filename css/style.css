@@ -808,6 +808,11 @@ div.pp_default .pp_description {
 	margin-bottom: 10px;
 }
 
+#appointments {
+	background-image: none;
+	
+}
+
 /*------------------------------------------*/
 /*	  CONTACT TEXT
 /*------------------------------------------*/
