@@ -774,6 +774,42 @@ div.pp_default .pp_description {
 	color: #0084b5;
 }
 
+/* ==========================================================================
+14. GET YOUR APPOINTMENT
+========================================================================== */ 
+
+.appointments-section {
+    background-image: url();
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;		
+    background-size: cover;
+}
+
+#contacts .container {
+    display: table;
+}
+
+#contacts .row {
+    display: table-row;
+}
+
+.contacts-form,
+.contacts-txt {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+    box-sizing: border-box;
+}
+
+#contacts h3 {
+    margin-bottom: 10px;
+}
+
+#appointments {
+    background-image: none;
+
+}
 
 
 /* ==========================================================================
@@ -806,11 +842,6 @@ div.pp_default .pp_description {
 
 #contacts h3 {
 	margin-bottom: 10px;
-}
-
-#appointments {
-	background-image: none;
-	
 }
 
 /*------------------------------------------*/

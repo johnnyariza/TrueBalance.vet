@@ -99,6 +99,10 @@ body {
 	padding-top: 100px;
 	padding-bottom: 40px;
 }
+.wide-30 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
 
 /*------------------------------------------*/
 /*    Padding Top
@@ -557,6 +561,48 @@ a:focus {
 
 .no-bg .navbar-nav > li > a { 
 	color: #fff; 
+}
+
+/*------------------------------------------*/
+/*	 Header Go Back Button
+/*------------------------------------------*/
+
+.navbar-nav > li > a.demos,
+.navbar-nav > li > a.goback {	
+    background-color: #0084b5;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 22px;
+    margin-top: 12px;
+    padding: 5px 15px;
+    margin-left: 8px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.navbar-nav > li > a.demos,
+.bg-grey .navbar-nav > li > a.goback,
+.navbar-nav > li > a.goback:hover {	
+    background-color: #0084b5;
+    border-color: #0084b5;
+}	
+
+.navbar-nav > li > a.goback:hover {
+    color: #fff;
+}
+
+.navbar-nav > li > a.demos:hover,
+.bg-grey .navbar-nav > li > a.goback:hover {
+    background-color: #444;
+    border-color: #444;
+    color: #fff;
+}
+
+#gobackbutton {
+    color: #fff;
 }
 
 /*------------------------------------------*/
