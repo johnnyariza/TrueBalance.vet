@@ -481,7 +481,7 @@ div.pp_default .pp_description {
 	background-repeat: no-repeat;
 	background-position: center center;		
 	background-size: cover;	
-	padding-top: 120px;
+	padding-top: 200px;
 	padding-bottom: 70px;
 }
 
@@ -779,7 +779,7 @@ div.pp_default .pp_description {
 ========================================================================== */ 
 
 .appointments-section {
-    background-image: url();
+/*    background-image: url();*/
     background-attachment: fixed !important;
     background-repeat: no-repeat;
     background-position: center center;		
