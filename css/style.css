@@ -176,6 +176,29 @@
 	left: 50%;
 }
 
+.endoflife-content-1-img { 
+	background-image: url(../images/thumbs/endoflife-1.jpeg);
+	background-repeat: no-repeat;
+	background-position: right center;		
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+}
+
+.endoflife-content-2-img { 
+	background-image: url(../images/thumbs/endoflife-2.jpeg);
+	background-repeat: no-repeat;
+	background-position: left center;		
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	left: 50%;
+}
+
 
 
 /* ==========================================================================
