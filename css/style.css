@@ -495,7 +495,7 @@ div.pp_default .pp_description {
 
 
 /* ==========================================================================
-   07. STATISTIC BANNER
+   07.1 STATISTIC BANNER
    ========================================================================== */  
 
 #statistic {  
@@ -506,6 +506,34 @@ div.pp_default .pp_description {
 	background-size: cover;	
 	padding-top: 200px;
 	padding-bottom: 70px;
+}
+
+/* ==========================================================================
+07.2 STATISTIC BANNER END OF LIFE
+========================================================================== */  
+
+#statistic-02 {  
+    background-image: url(../images/thumbs/statistic-02.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;		
+    background-size: cover;	
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+
+/* ==========================================================================
+07.3 STATISTIC BANNER BIO
+========================================================================== */  
+
+#statistic-03 {  
+    background-image: url(../images/thumbs/statistic-03.jpg);
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+    background-position: center center;		
+    background-size: cover;	
+    padding-top: 200px;
+    padding-bottom: 70px;
 }
 
 /*------------------------------------------*/
@@ -582,7 +610,7 @@ div.pp_default .pp_description {
 }
 
 .reviews-img { 
-	background-image: url(../images/thumbs/reviews.jpg);
+	background-image: url(../images/thumbs/reviews-02.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
