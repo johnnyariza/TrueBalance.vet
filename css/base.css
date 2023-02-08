@@ -1220,3 +1220,38 @@ textarea {
 nav a#pull {  
     display: none;  
 }
+
+
+/* hover button */
+
+.btn-hover{
+	position: relative;
+}
+
+.btn-hover::before{	
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 0%;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.btn-hover:hover::before{
+	font-family: "Themify", sans-serif;
+	content: "Download \e6a7";
+	height: 100%;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
