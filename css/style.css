@@ -124,7 +124,7 @@
 
 .cbox-2 span {
 	color: #0084b5;
-	font-size: 32px;
+	font-size: 16px;
 	line-height: 32px!important;
 	float: left;
 	margin-right: 15px;	
@@ -154,7 +154,7 @@
 /*------------------------------------------*/  
   
 .content-1-img { 
-	background-image: url(../images/thumbs/content-1.jpg);
+	background-image: url(../images/thumbs/content-0.jpg);
 	background-repeat: no-repeat;
 	background-position: right center;		
 	background-size: cover;
@@ -188,7 +188,7 @@
 }
 
 .endoflife-content-2-img { 
-	background-image: url(../images/thumbs/endoflife-2.jpeg);
+	background-image: url(../images/thumbs/endoflife-2.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
@@ -495,7 +495,7 @@ div.pp_default .pp_description {
 
 
 /* ==========================================================================
-   07.1 STATISTIC BANNER
+   07. STATISTIC BANNER
    ========================================================================== */  
 
 #statistic {  
@@ -506,34 +506,6 @@ div.pp_default .pp_description {
 	background-size: cover;	
 	padding-top: 200px;
 	padding-bottom: 70px;
-}
-
-/* ==========================================================================
-07.2 STATISTIC BANNER END OF LIFE
-========================================================================== */  
-
-#statistic-02 {  
-    background-image: url(../images/thumbs/statistic-02.jpg);
-    background-attachment: fixed !important;
-    background-repeat: no-repeat;
-    background-position: center center;		
-    background-size: cover;	
-    padding-top: 200px;
-    padding-bottom: 70px;
-}
-
-/* ==========================================================================
-07.3 STATISTIC BANNER BIO
-========================================================================== */  
-
-#statistic-03 {  
-    background-image: url(../images/thumbs/statistic-03.jpg);
-    background-attachment: fixed !important;
-    background-repeat: no-repeat;
-    background-position: center center;		
-    background-size: cover;	
-    padding-top: 200px;
-    padding-bottom: 70px;
 }
 
 /*------------------------------------------*/
@@ -610,7 +582,7 @@ div.pp_default .pp_description {
 }
 
 .reviews-img { 
-	background-image: url(../images/thumbs/reviews-02.jpg);
+	background-image: url(../images/thumbs/reviews.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
