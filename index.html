@@ -27,6 +27,7 @@
     <!-- FONT ICONS -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/themify-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 
     <!-- GOOGLE FONTS -->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
@@ -45,6 +46,16 @@
 
     <!-- RESPONSIVE CSS -->
     <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- INSTAGRAM CAROUSEL -->
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 
 
 </head>
@@ -337,6 +348,21 @@
 
                         <p>“I truly believe Health is the balance of all the physiological reactions in the body with the mind and the environment. I believe in the power of your pet’s body to heal, in the influence that a good diet and a healthy environment have in the body and the great influence that the human-animal bond has in the in the health of your pet.” <br>~ Dr. Maria T. Patino. ~
                         </p>
+
+                        <div class="slider-social d-none d-lg-block clearfix p-top-10">
+                            <a href="https://www.facebook.com/truebalance.vet/" target="_blank" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>					
+                            <a href="https://www.instagram.com/truebalance.vet/" target="_blank" class="social-icon si-small si-borderless si-instagram">
+                                <i class="icon-instagram"></i>
+                                <i class="icon-instagram"></i>
+                            </a>
+                            <a href="https://tiktok.com/@truebalance.vet/" target="_blank" class="social-icon si-small si-borderless si-tiktok">
+                                <i class="icon-tiktok"></i>
+                                <i class="icon-tiktok"></i>
+                            </a>
+                        </div>
 
                         <!-- Button -->
                         <a href="#team" class="btn m-top-20">MEET DR. PATINO</a>
@@ -985,22 +1011,45 @@
 
         </div>
         <!-- END PORTFOLIO -->
-        <!-- <h1 style="text-align: center">Show Instagram Feed on your Website</h1>
-    	<div id="instafeed-container"></div>
+        <h1 style="text-align: center">Show Instagram Feed on your Website</h1>
+    	<div id="instafeed" class="owl-carousel owl-theme owl-loaded owl-drag"></div>
 
-
-
-	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
 	<script type="text/javascript">
-	var userFeed = new Instafeed({
-		get: 'user',
-		target: "instafeed-container",
-    	resolution: 'high_resolution',
-		accessToken: '',
-        limit: 12
-	});
-	userFeed.run();
-	</script> -->
+		var feed = new Instafeed({
+			accessToken: '',
+			limit: 8,
+			template:'<div class="item"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+
+			after: function(){
+
+				$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:false,
+					responsiveClass:true,
+                    orientation: 'square',                   
+					responsive:{
+						0:{
+							items:1
+							
+						},
+						600:{
+							items:3
+							
+						},
+						1000:{
+							items:5,							
+							loop:false
+						}
+					}
+				});
+			}
+		});
+
+
+		feed.run();
+
+	</script>
 
 
         <!-- PRICING
@@ -2009,8 +2058,8 @@
                             <!-- Icons list -->
                             <ul class="footer-icons clearfix">
 
-								<li><a class="foo-social ico-facebook" href="https://www.facebook.com/truebalance.vet/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
-								<li><a class="foo-social ico-twitter" href="https://twitter.com/TrueBalanceVet"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+								<li><a class="foo-social ico-facebook" href="https://www.facebook.com/truebalance.vet/"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook </a></li><br>
+								<li><a class="foo-social ico-tiktok" href="https://tiktok.com/@TrueBalance.Vet"><i class="fa icon-tiktok" aria-hidden="true"></i> Tiktok </a></li>
 								<li><a class="foo-social ico-instagram" href="https://www.instagram.com/truebalance.vet/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
 								<li><a class="foo-social ico-youtube" href="https://www.youtube.com/channel/UCY5q3sGYbgPbAanA_g8lWgw"><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</a></li>
 
