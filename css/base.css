@@ -1247,7 +1247,7 @@ nav a#pull {
 
 .btn-hover:hover::before{
 	font-family: "Themify", sans-serif;
-	content: "Download \e6a7";
+	content: "Quality of Life Chart \e6a7";
 	height: 100%;
 	-webkit-transition: all 350ms ease-in-out;
 	-moz-transition: all 350ms ease-in-out;
