@@ -154,7 +154,7 @@
 /*------------------------------------------*/  
   
 .content-1-img { 
-	background-image: url(../images/thumbs/content-0.jpg);
+	background-image: url(../images/thumbs/content-0.webp);
 	background-repeat: no-repeat;
 	background-position: right center;		
 	background-size: cover;
@@ -165,7 +165,7 @@
 }
 
 .content-2-img { 
-	background-image: url(../images/thumbs/content-2.png);
+	background-image: url(../images/thumbs/content-2.webp);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
@@ -188,7 +188,7 @@
 }
 
 .endoflife-content-2-img { 
-	background-image: url(../images/thumbs/endoflife-2.jpg);
+	background-image: url(../images/thumbs/endoflife-2.webp);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
@@ -499,7 +499,7 @@ div.pp_default .pp_description {
    ========================================================================== */  
 
 #statistic {  
-	background-image: url(../images/thumbs/statistic.jpg);
+	background-image: url(../images/thumbs/statistic.webp);
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
 	background-position: center center;		
@@ -582,7 +582,7 @@ div.pp_default .pp_description {
 }
 
 .reviews-img { 
-	background-image: url(../images/thumbs/reviews.jpg);
+	background-image: url(../images/thumbs/reviews.webp);
 	background-repeat: no-repeat;
 	background-position: left center;		
 	background-size: cover;
@@ -710,7 +710,7 @@ div.pp_default .pp_description {
    ========================================================================== */ 
 
 #call-to-action {
-	background-image: url(../images/thumbs/call-to-action.jpg);
+	background-image: url(../images/thumbs/call-to-action.webp);
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
 	background-position: center center;		
@@ -840,7 +840,7 @@ div.pp_default .pp_description {
    ========================================================================== */ 
 
 .contacts-section {
-	background-image: url(../images/thumbs/contacts.jpg);
+	background-image: url(../images/thumbs/contacts.webp);
 	background-attachment: fixed !important;
 	background-repeat: no-repeat;
 	background-position: center center;		
